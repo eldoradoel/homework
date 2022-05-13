@@ -1,7 +1,6 @@
 def startwith(start: int, mgraph: list) -> list:
     passed = [start]
     nopass = [x for x in range(len(mgraph)) if x != start]
-    print(nopass)
     dis = mgraph[start]
     while len(nopass):
         idx = nopass[0]
